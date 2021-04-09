@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Discord Verified Invite</title>
+  </head>
+  <body>
+    <% for (i = 0; i < data.serverInfos.length; i++) { %>
+      <h1><%=data.serverInfos[i].name%></h1>
+      <a href="/<%=data.serverInfos[i].link%>">Get Invite</a>
+    <% } %>
+  </body>
+</html>
